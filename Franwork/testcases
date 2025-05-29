@@ -1,0 +1,11 @@
+Senario: Verify that create product after product details page correct
+
+Steps:
+ launch browser
+ hit url
+ login
+ click on productLink
+ click on the createProduct Plus icone
+ fillup the form
+ click on save button
+ 

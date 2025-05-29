@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [ParallelSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="SauceDemo Tests(failed)">
+    <classes>
+      <class name="web_Automation_QA_Assignment.saucedemo">
+        <methods>
+          <include name="setup"/>
+          <include name="validateOrderSuccessFull"/>
+          <include name="LoginFailure"/>
+        </methods>
+      </class> <!-- web_Automation_QA_Assignment.saucedemo -->
+    </classes>
+  </test> <!-- SauceDemo Tests(failed) -->
+</suite> <!-- Failed suite [ParallelSuite] -->
